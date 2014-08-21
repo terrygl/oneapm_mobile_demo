@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.app.demo.JsonActivity$PlaceholderFragment" >
+
+    <Button
+        android:id="@+id/Test_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tip_bg"
+        android:layout_centerHorizontal="true"
+        android:layout_alignLeft="@+id/TV_tip"
+        android:layout_alignRight="@+id/TV_tip"
+        android:textColor="#ffffff"
+        android:text="点击测试" />
+
+    <TextView
+        android:id="@+id/TV_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Test_btn"
+        android:layout_centerHorizontal="true"
+        android:textSize="15dp"
+        android:textColor="#5e99f3"
+        android:text="登陆OneAPM即可看到测试结果反馈" />
+
+    <TextView
+        android:id="@+id/TV_json"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TV_tip"
+        android:layout_marginTop="40dp"
+        android:textSize="20sp"
+        android:textColor="#ababab"
+        android:text="@string/hello_world" />
+
+    <TextView
+        android:id="@+id/TV_json_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TV_json"
+        android:textColor="#bfbfbf"
+         android:layout_marginTop="10dp"
+        android:text="@string/hello_world" />
+
+</RelativeLayout>
