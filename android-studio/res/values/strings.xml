@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">app.demo</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_json">Activity</string>
+    <string name="processDialog">正在加载...</string>
+    <string name="databaseTitle">测试数据库性能</string>
+    <string name="databaseContent">插入了50个数据到数据库完毕！！！</string>
+    <string name="ExplainJson">测试json地址：http://tongdianer.com/out.json</string>
+    <string name="ExplainJsonContent">测试取出weather1字段显示在页面中\n登陆：www.oneapm.com 即可看到json解析过程性能监控</string>
+    <string name="ExplainBitmap">测试图片地址：http://i.imgur.com/CdjPpmi.jpg</string>
+    <string name="ExplainBitmapContent">测试全程加载该图片显示在页面中\n登陆：www.oneapm.com 即可看到解析图片性能监控</string>
+    <string name="ExplainDatabase">测试流程：网数据库中连续添加50个用户</string>
+    <string name="ExplainDatabaseContent">测试完毕，会在页面中显示："插入了50个数据到数据库完毕"\n登陆：www.oneapm.com 即可看到添加用户过程性能监控</string>
+    <string name="ExplainViewloading">测试流程：在onCreate中加入一些下载网络上资源的代码，加大onCreate的执行时间</string>
+    <string name="ExplainViewloadingContent">加载一个大大的文件，这个会耗时很久\n登陆：www.oneapm.com 即可看到页面加载过程性能监控</string>
+    <string name="ExplainCrash">测试流程：模拟产生一个异常,点击按钮异常退出该程序</string>
+    <string name="ExplainCrashContent">登陆：www.oneapm.com 即可看到捕获异常信息，造成异常的代码段等性能监控</string>
+    <string name="ToastImg">网络图片访问失败，请登录OneAPM追本溯源</string>
+    <string name="title_Loadjson">测试json加载,这个是一个天气预报的数据，请求的json数据显示在下面</string>
+    <string name="content_Loadjson">天气：</string>
+    <string name="ToastLoadjson">接口访问失败，请登录OneAPM追本溯源</string>
+    <string name="title_ViewLoading">测试页面加载时间</string>
+    <string name="content_ViewLoading">加载完毕\n统计页面加载时间对于应用开发者来说很有意义，试想如果一个页面加载了1分钟还是黑屏，用户还会等吗？\n让OneAPM帮你追究原因，改善用户体验吧！</string>
+    <string name="ToastViewLoading">网络图片访问失败，请登录OneAPM追本溯源</string>
+    <string name="LogNetworksuc">HttpGet方式请求成功，返回数据如下：</string>
+
+</resources>

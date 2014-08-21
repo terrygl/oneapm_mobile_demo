@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="oneapm-android-agent-05a1ae70f21fe750b439379843c81c7a">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/app.demo/bin/dexedLibs/oneapm-android-agent-05a1ae70f21fe750b439379843c81c7a.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
